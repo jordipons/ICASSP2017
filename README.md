@@ -1,5 +1,4 @@
-ICASSP2017 paper: DESIGNING EFFICIENT ARCHITECTURES FOR MODELING TEMPORAL FEATURES
-WITH CONVOLUTIONAL NEURAL NETWORKS
+ICASSP2017 paper: DESIGNING EFFICIENT ARCHITECTURES FOR MODELING TEMPORAL FEATURES WITH CONVOLUTIONAL NEURAL NETWORKS
 -----------------------------
 This code can be easily adapted for music (spectrograms) classification using any deep learning architecture available in Lasagne-Theano.
 It is build using python on Lasagne-Theano for deep learning and Essentia for feature extraction.
