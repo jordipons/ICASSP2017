@@ -39,10 +39,10 @@ parameters['DS']['hopSize'] = 1024
 parameters['DS']['specTransform'] = 'mel'           # options: 'mel' and 'magnitudeSTFT'
 parameters['DS']['numChannels'] = 1
 parameters['DS']['windowType'] = 'blackmanharris62'
+parameters['DS']['melBands'] = 40
 parameters['DS']['yInput'] = parameters['DS']['melBands']
 parameters['DS']['inputNormWhere'] = 'global'
 parameters['DS']['inputNorm'] = 'log0m1v'           # options: 'log0m1v' or 'None'
-parameters['DS']['melBands'] = 40
 parameters['DS']['xInput'] = 250   
 
 dl.main(parameters)
